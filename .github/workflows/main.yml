@@ -3,7 +3,7 @@ on:
     branches:
       - main
     paths:
-      - 'test.txt'  # Specify the path to the text file
+      - 'test.txt'  # Specify the path to the text file.
 jobs:
   read-file:
     runs-on: ubuntu-latest
